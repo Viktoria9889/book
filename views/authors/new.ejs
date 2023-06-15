@@ -1,0 +1,13 @@
+<h2>Новий автор</h2>
+
+<form action="/authors" method="POST">
+    <div>
+        Name
+    </div>
+
+    <input type="text" name="name" value="<%= author.name %>"> 
+
+    <a href="/authors">Cancel</a>
+
+    <button type="submit">Create</button>
+</form>
